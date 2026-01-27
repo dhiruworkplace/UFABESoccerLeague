@@ -37,14 +37,14 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerSt
                     Debug.Log(" -------------------------- Pause Game Called Here");
                     // Ads Here
                     
-                    if (Advertisements.Instance.IsInterstitialAvailable())
-                    {
-                        AdsManager.Instance.ShowInterstitial();
-                    }
-                    else if (AdsManager.Instance.isVideoReady)
-                    {
-                        AdsManager.Instance.ShowUnityVideoAd();
-                    }
+                    //if (Advertisements.Instance.IsInterstitialAvailable())
+                    //{
+                    //    AdsManager.Instance.ShowInterstitial();
+                    //}
+                    //else if (AdsManager.Instance.isVideoReady)
+                    //{
+                    //    AdsManager.Instance.ShowUnityVideoAd();
+                    //}
                   //  AdsManager.Instance.ShowMediumBanner();
                     
                 });

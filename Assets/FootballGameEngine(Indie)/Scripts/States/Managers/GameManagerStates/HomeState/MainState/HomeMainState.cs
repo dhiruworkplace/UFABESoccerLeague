@@ -34,11 +34,11 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerSt
           //  AdsManager.Instance.medBannerView.SetPosition(GoogleMobileAds.Api.AdPosition.BottomLeft);
 
           //  AdsManager.Instance.HideMediumBanner();
-            AdsManager.Instance.ShowBanner();
-            if (!AdsManager.Instance.isVideoReady)
-            {
-                //AdsManager.Instance.LoadInerstitialAd();
-            }
+            //AdsManager.Instance.ShowBanner();
+            //if (!AdsManager.Instance.isVideoReady)
+            //{
+            //    //AdsManager.Instance.LoadInerstitialAd();
+            //}
            
             
             

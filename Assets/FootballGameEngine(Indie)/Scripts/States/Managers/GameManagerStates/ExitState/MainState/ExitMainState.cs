@@ -29,14 +29,14 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerSt
             //Ads
             // Ads Here
             
-            if (Advertisements.Instance.IsInterstitialAvailable())
-                {
-                    AdsManager.Instance.ShowInterstitial();
-                }
-                else if (AdsManager.Instance.isVideoReady)
-                {
-                    AdsManager.Instance.ShowUnityVideoAd();
-                }
+            //if (Advertisements.Instance.IsInterstitialAvailable())
+            //    {
+            //        AdsManager.Instance.ShowInterstitial();
+            //    }
+            //    else if (AdsManager.Instance.isVideoReady)
+            //    {
+            //        AdsManager.Instance.ShowUnityVideoAd();
+            //    }
               //  AdsManager.Instance.ShowMediumBanner();
             
                 

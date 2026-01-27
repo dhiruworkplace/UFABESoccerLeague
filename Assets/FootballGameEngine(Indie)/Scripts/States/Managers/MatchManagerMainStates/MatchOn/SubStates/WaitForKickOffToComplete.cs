@@ -59,7 +59,7 @@ namespace Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMa
             if(hasInvokedKickOffEvent == false)
             {
                 waitTime -= Time.deltaTime;
-                Debug.Log("Cutscene is playing Now ..................");
+                //Debug.Log("Cutscene is playing Now ..................");
                 if (!MyGameManager.Instance.isSceneplaying)
                 {
                     if (!once)

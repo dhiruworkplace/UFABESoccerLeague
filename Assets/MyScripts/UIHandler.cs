@@ -61,10 +61,10 @@ public class UIHandler : MonoBehaviour
         
         if (Application.internetReachability != NetworkReachability.NotReachable)
         {
-            if (Advertisements.Instance.IsInterstitialAvailable())
-            {
-                StartCoroutine(playadStatic());
-            }
+            //if (Advertisements.Instance.IsInterstitialAvailable())
+            //{
+            //    StartCoroutine(playadStatic());
+            //}
         }
         
 
@@ -91,10 +91,10 @@ public class UIHandler : MonoBehaviour
          yield return new WaitForSeconds(2f);
         // Ads Here
         
-        if (Advertisements.Instance.IsInterstitialAvailable())
-        {
-            AdsManager.Instance.ShowInterstitial();
-        }
+        //if (Advertisements.Instance.IsInterstitialAvailable())
+        //{
+        //    AdsManager.Instance.ShowInterstitial();
+        //}
         
         yield return new WaitForSeconds(0.1f);
         HidePanels();
@@ -108,15 +108,15 @@ public class UIHandler : MonoBehaviour
         {
             // Ads Here
 
-            if (Advertisements.Instance.IsInterstitialAvailable())
-            {
-                StartCoroutine(playad());
+            //if (Advertisements.Instance.IsInterstitialAvailable())
+            //{
+            //    StartCoroutine(playad());
             
-            }
-            else if (AdsManager.Instance.isVideoReady)
-            {
-                StartCoroutine(playad());
-            }
+            //}
+            //else if (AdsManager.Instance.isVideoReady)
+            //{
+            //    StartCoroutine(playad());
+            //}
                 
             
         }
@@ -128,14 +128,14 @@ public class UIHandler : MonoBehaviour
         yield return new WaitForSeconds(2f);
         // Ads Here
         
-        if (Advertisements.Instance.IsInterstitialAvailable())
-        {
-            AdsManager.Instance.ShowInterstitial();
-        }
-        else if (AdsManager.Instance.isVideoReady) 
-        {
-            AdsManager.Instance.ShowUnityVideoAd();
-        }
+        //if (Advertisements.Instance.IsInterstitialAvailable())
+        //{
+        //    AdsManager.Instance.ShowInterstitial();
+        //}
+        //else if (AdsManager.Instance.isVideoReady) 
+        //{
+        //    AdsManager.Instance.ShowUnityVideoAd();
+        //}
       
         yield return new WaitForSeconds(0.1f);
         HidePanels();

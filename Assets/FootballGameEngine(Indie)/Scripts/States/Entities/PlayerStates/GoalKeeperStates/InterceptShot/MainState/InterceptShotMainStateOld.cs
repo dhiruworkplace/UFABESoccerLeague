@@ -288,7 +288,7 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.
                 if (distBetweenBallAndBallReference <= 0.5f)    //ToDo::Fix logic to use Mathf.Episilon
                 {
                     // get the distance travelled by the ball in a single frame
-                    float distanceOfBallTravelledInSingleFrame = GetDistanceTravelledInSingleFrame(Ball.Instance.Rigidbody.velocity);
+                    float distanceOfBallTravelledInSingleFrame = GetDistanceTravelledInSingleFrame(Ball.Instance.Rigidbody.linearVelocity);
 
                     if (isBallCatchable)
                     {

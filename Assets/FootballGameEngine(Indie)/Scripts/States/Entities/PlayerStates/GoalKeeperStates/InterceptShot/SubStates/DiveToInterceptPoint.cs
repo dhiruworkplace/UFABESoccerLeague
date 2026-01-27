@@ -151,7 +151,7 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.
                     //punch the ball
                     ballPunchDirection = Owner.transform.TransformDirection(ballPunchDirection);
                     Ball.Instance.KickInDirection(ballPunchDirection,
-                        0.5f * Ball.Instance.Rigidbody.velocity.magnitude);
+                        0.5f * Ball.Instance.Rigidbody.linearVelocity.magnitude);
 
                     //set the animator to exit the dive state
                     Owner.Animator.SetTrigger("Exit");

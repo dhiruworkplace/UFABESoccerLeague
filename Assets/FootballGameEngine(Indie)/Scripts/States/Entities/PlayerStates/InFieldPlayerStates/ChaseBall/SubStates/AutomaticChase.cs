@@ -63,8 +63,8 @@ namespace Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.I
             if (Ball.Instance.CurrentOwner == null) 
             {
                 _targetPosition = Ball.Instance.Position;
-                _targetSpeed = Ball.Instance.Rigidbody.velocity.magnitude;
-                _targetVelocity = Ball.Instance.Rigidbody.velocity;
+                _targetSpeed = Ball.Instance.Rigidbody.linearVelocity.magnitude;
+                _targetVelocity = Ball.Instance.Rigidbody.linearVelocity;
             }
             else 
             {

@@ -95,8 +95,8 @@ namespace Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.I
             {
                 // get the data
                 _targetPosition = Ball.Instance.Position;
-                _targetSpeed = Ball.Instance.Rigidbody.velocity.magnitude;
-                _targetVelocity = Ball.Instance.Rigidbody.velocity;
+                _targetSpeed = Ball.Instance.Rigidbody.linearVelocity.magnitude;
+                _targetVelocity = Ball.Instance.Rigidbody.linearVelocity;
                 _timeToTarget = Owner.TimeToTarget(Owner.Position, Ball.Instance.NormalizedPosition, _speed);
 
                 // find the future position

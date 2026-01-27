@@ -69,7 +69,7 @@ namespace Assets.FootballGameEngine_Indie.Scripts.Entities
             {
                 
                 // get ball velocity
-                float ballVelocity = Rigidbody.velocity.magnitude;
+                float ballVelocity = Rigidbody.linearVelocity.magnitude;
                 if (ballVelocity <= 0.01f) ballVelocity = 0f;
 
                 // rotate ball
@@ -84,7 +84,7 @@ namespace Assets.FootballGameEngine_Indie.Scripts.Entities
         public void ApplyFriction()
         {
             //get the direction the ball is travelling
-            _frictionVector = Rigidbody.velocity.normalized;
+            _frictionVector = Rigidbody.linearVelocity.normalized;
             _frictionVector.y = 0f;
 
             //calculate the actual friction
@@ -140,7 +140,7 @@ namespace Assets.FootballGameEngine_Indie.Scripts.Entities
         public Vector3 FuturePosition(float time)
         {
             //get the velocities
-            Vector3 velocity = Rigidbody.velocity;
+            Vector3 velocity = Rigidbody.linearVelocity;
             Vector3 velocityXZ = velocity;
             velocityXZ.y = 0f;
 
@@ -179,7 +179,7 @@ namespace Assets.FootballGameEngine_Indie.Scripts.Entities
             direction.Normalize();
 
             // kick in direction
-            Rigidbody.velocity = direction * power;
+            Rigidbody.linearVelocity = direction * power;
 
             //invoke the ball launched event
             BallLaunched temp = OnBallLaunched;
@@ -199,7 +199,7 @@ namespace Assets.FootballGameEngine_Indie.Scripts.Entities
 
             //change the velocity
             direction.y = 0.015f;
-            Rigidbody.velocity = direction * power;
+            Rigidbody.linearVelocity = direction * power;
 
             //invoke the ball launched event
             BallLaunched temp = OnBallLaunched;
@@ -231,7 +231,7 @@ namespace Assets.FootballGameEngine_Indie.Scripts.Entities
             velocity.y = toTarget.y / time + (0.5f * -Physics.gravity.y * time);
 
             //return the velocity
-            Rigidbody.velocity = velocity;
+            Rigidbody.linearVelocity = velocity;
 
             //invoke the ball launched event
             BallLaunched temp = OnBallLaunched;
@@ -248,7 +248,7 @@ namespace Assets.FootballGameEngine_Indie.Scripts.Entities
         public void Trap()
         {
             Rigidbody.angularVelocity = Vector3.zero;
-            Rigidbody.velocity = Vector3.zero;
+            Rigidbody.linearVelocity = Vector3.zero;
         }
 
         public float TimeToCoverDistance(Vector3 from, Vector3 to, float initialVelocity, bool factorInFriction = true)

@@ -43,7 +43,7 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerSt
 
             //enable the init main menu and background menu
             GraphicsManager.Instance.MenuManager.EnableMenu(GraphicsManager.Instance.BackgroundMainMenu.ID);
-            GraphicsManager.Instance.MenuManager.EnableMenu(GraphicsManager.Instance.InitMainMenu.ID);
+            GraphicsManager.Instance.MenuManager.EnableMenu(GraphicsManager.Instance.HomeMainMenu.ID);
 
             // run the base class
             base.Enter();

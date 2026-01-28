@@ -72,6 +72,7 @@ namespace SmartMenuManagement.Scripts
         {
             try
             {
+                Debug.Log("key : " + key);
                 //get the menu
                 GameObject menu = GetMenu(key);
 

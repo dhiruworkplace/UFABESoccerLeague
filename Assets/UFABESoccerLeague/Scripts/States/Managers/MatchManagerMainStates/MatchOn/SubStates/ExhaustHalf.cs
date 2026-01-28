@@ -115,11 +115,9 @@ namespace Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMa
         private void Instance_OnGoalScored()
         {
             //prepare the text
-            string info = string.Format("{0}    {1}-{2}    {3}", 
-                Owner.TeamAway.TeamData.ShortName,
-                Owner.TeamAway.Goals, 
-                Owner.TeamHome.Goals,
-                Owner.TeamHome.TeamData.ShortName);
+            string info = string.Format("{0}-{1}",
+                Owner.TeamAway.Goals,
+                Owner.TeamHome.Goals);
 
             //invoke the goal-scored event
             ActionUtility.Invoke_Action(info, Owner.OnGoalScored);

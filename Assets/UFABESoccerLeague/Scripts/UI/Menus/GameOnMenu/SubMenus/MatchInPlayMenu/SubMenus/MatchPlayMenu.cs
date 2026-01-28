@@ -12,7 +12,13 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.
         Button _btnPauseMatch;
 
         [SerializeField]
+        Text _txtTeam1;
+
+        [SerializeField]
         Text _txtScores;
+
+        [SerializeField]
+        Text _txtTeam2;
 
         [SerializeField]
         Text _txtTime;
@@ -27,8 +33,10 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.
 
         public void Init(bool isRadarOn, int scoresTeamAway, int scoresTeamHome, string nameAwayTeam, string nameHomeTeam, string time)
         {
-            _txtScores.text = string.Format("{0}    {1}-{2}    {3}", nameAwayTeam, scoresTeamAway, scoresTeamHome, nameHomeTeam);
+            _txtScores.text = string.Format("{0}-{1}", scoresTeamAway, scoresTeamHome);
             _txtTime.text = time;
+            _txtTeam1.text = nameAwayTeam;
+            _txtTeam2.text = nameHomeTeam;
 
             _radarRoot.SetActive(isRadarOn);
         }

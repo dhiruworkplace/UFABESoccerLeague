@@ -104,7 +104,7 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerSt
 
             GraphicsManager.Instance.HomeMainMenu.BtnSettings.onClick.AddListener(() =>
             {
-                OnClickSettingsButton();
+                //OnClickSettingsButton();
             });
 
             GraphicsManager.Instance.HomeMainMenu.BtnTrophy.onClick.AddListener(() =>

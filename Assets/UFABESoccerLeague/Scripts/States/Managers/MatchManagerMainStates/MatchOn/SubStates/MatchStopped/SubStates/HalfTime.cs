@@ -40,7 +40,7 @@ namespace Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMa
         public void RaiseTheHalfTimeStartEvent()
         {
             //prepare an empty string
-            string message = string.Format("{0}    {1}-{2}    {3}",
+            string message = string.Format("{0}       {1}-{2}       {3}",
                 Owner.TeamAway.TeamData.Name,
                 Owner.TeamAway.Goals,
                 Owner.TeamHome.Goals,

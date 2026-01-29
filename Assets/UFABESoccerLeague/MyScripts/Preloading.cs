@@ -59,7 +59,7 @@ public class Preloading : MonoBehaviour
 
         }
         yield return new WaitForSeconds(0.1f);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("MainScene");
 
     }
 }

@@ -1,5 +1,5 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests
+namespace Assets.UFABESoccerLeague.Scripts.Tests.InFieldPlayerTests
 {
     /// <summary>
     /// We test the kick-off. On success, the controlling player is instructed to take the kick-off

@@ -1,10 +1,10 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.SubMenus;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.PreMatchSubMenus;
+﻿using Assets.UFABESoccerLeague_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.SubMenus;
+using Assets.UFABESoccerLeague_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.PreMatchSubMenus;
 using SmartMenuManagement.Scripts;
 using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.MainMenu
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.MainMenu
 {
     [Serializable]
     public class MatchInPlayMainMenu : BSubMenu

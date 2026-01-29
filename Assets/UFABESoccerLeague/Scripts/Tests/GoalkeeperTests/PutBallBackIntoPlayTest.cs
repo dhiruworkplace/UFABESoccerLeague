@@ -1,10 +1,10 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.IdleState.MainState;
-using Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Entities;
+using Assets.UFABESoccerLeague_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.IdleState.MainState;
+using Assets.UFABESoccerLeague_.Scripts.Utilities.Enums;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Tests.GoalkeeperTests
+namespace Assets.UFABESoccerLeague_.Scripts.Tests.GoalkeeperTests
 {
     public class PutBallBackIntoPlayTest : MonoBehaviour
     {

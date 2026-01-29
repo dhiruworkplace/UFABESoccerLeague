@@ -1,9 +1,9 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.GoalKeeperStates.Wait.MainState;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.GoalKeeperStates.Wait.MainState;
 using RobustFSM.Base;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.GoalKeeperStates.Init.MainState
+namespace Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.GoalKeeperStates.Init.MainState
 {
     public class InitMainState : BState
     {

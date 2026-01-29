@@ -1,11 +1,11 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
-using Assets.FootballGameEngine_Indie_.Scripts.Entities;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
+using Assets.UFABESoccerLeague_.Scripts.Entities;
 using RobustFSM.Base;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.TakeGoalKick.SubStates
+namespace Assets.UFABESoccerLeague_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.TakeGoalKick.SubStates
 {
     public class AutomaticTakeGoalKick : BState
     {

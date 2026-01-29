@@ -1,11 +1,11 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.PickOutThreat.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Defend.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.PickOutThreat.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.Defend.MainState;
+using Assets.UFABESoccerLeague.Scripts.Utilities.Enums;
 using RobustFSM.Base;
 using System.Linq;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.GoalKick.SubStates
+namespace Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.GoalKick.SubStates
 {
     public class DefendGoalKick : BState
     {
@@ -30,7 +30,7 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.GoalKick
             SuperMachine.ChangeState<DefendMainState>();
         }
 
-        public FootballGameEngine_Indie.Scripts.Entities.Team Owner
+        public UFABESoccerLeague.Scripts.Entities.Team Owner
         {
             get
             {

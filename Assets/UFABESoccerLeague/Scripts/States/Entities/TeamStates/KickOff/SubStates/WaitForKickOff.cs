@@ -1,10 +1,10 @@
 ﻿using System;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Defend.MainState;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.Defend.MainState;
 using RobustFSM.Base;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.KickOff.SubStates
+namespace Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.KickOff.SubStates
 {
     public class WaitForKickOff : BState
     {

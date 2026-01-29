@@ -1,10 +1,10 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CounterKick.MainState;
+﻿using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
+using Assets.UFABESoccerLeague.Scripts.Utilities.Enums;
+using Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.CounterKick.MainState;
 using RobustFSM.Base;
 using System.Linq;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CounterKick.SubStates
+namespace Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.CounterKick.SubStates
 {
     public class PrepareForCounterKick : BState
     {
@@ -28,7 +28,7 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CounterK
                 Machine.ChangeState<DefendCounterKick>();
         }
 
-        public Assets.FootballGameEngine_Indie.Scripts.Entities.Team Owner
+        public Assets.UFABESoccerLeague.Scripts.Entities.Team Owner
         {
             get
             {

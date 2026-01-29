@@ -1,7 +1,7 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.GoalKick.SubStates;
+﻿using Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.GoalKick.SubStates;
 using RobustFSM.Base;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.GoalKick.MainState
+namespace Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.GoalKick.MainState
 {
     public class GoalKickMainState : BHState
     {

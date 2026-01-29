@@ -1,8 +1,8 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
 using RobustFSM.Base;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ControlBall.SubStates
+namespace Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ControlBall.SubStates
 {
     public class ChooseControlType : BState
     {

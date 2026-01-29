@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Utilities.Objects
+namespace Assets.UFABESoccerLeague.Scripts.Utilities.Objects
 {
     public class Range
     {

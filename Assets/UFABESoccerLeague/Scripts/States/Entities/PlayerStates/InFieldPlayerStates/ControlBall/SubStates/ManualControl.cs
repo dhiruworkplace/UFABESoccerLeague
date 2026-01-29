@@ -1,12 +1,12 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.KickBall.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums;
-using Assets.FootballGameEngine_Indie_.Scripts.Entities;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.KickBall.MainState;
+using Assets.UFABESoccerLeague.Scripts.Utilities.Enums;
+using Assets.UFABESoccerLeague_.Scripts.Entities;
 using RobustFSM.Base;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ControlBall.SubStates
+namespace Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ControlBall.SubStates
 {
     public class ManualControl : BState
     {

@@ -1,12 +1,12 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Tactics;
+﻿using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Tactics;
 using Patterns.Singleton;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Managers
+namespace Assets.UFABESoccerLeague_.Scripts.Managers
 {
     public class DataManager : Singleton<DataManager>
     {

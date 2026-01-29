@@ -1,7 +1,7 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague_.Scripts.Utilities.Enums;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Entities
+namespace Assets.UFABESoccerLeague.Scripts.Entities
 {
     public class Formation : MonoBehaviour
     {

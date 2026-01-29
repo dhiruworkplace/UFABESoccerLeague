@@ -1,14 +1,14 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Items.PlayerItems;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.UI.Items.PlayerItems;
 using SmartMenuManagement.Scripts;
 using System;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.PreMatchSubMenus
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.PreMatchSubMenus
 {
     [Serializable]
     public class PreMatchMatchInfoSubMenu : BSubMenu

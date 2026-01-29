@@ -1,12 +1,12 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.StateMachines.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.HomeState.MainState;
+﻿using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.StateMachines.Managers;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.HomeState.MainState;
 using RobustFSM.Base;
-using static Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.SelectTeamsSubMenu;
+using static Assets.UFABESoccerLeague_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.SelectTeamsSubMenu;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.SubStates
+namespace Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.SubStates
 {
     public class SelectTeams : BState
     {

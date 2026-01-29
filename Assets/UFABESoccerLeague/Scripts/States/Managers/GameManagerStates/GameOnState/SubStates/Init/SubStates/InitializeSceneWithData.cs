@@ -1,14 +1,14 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.InGame.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Storage.MatchDifficulties;
-using Assets.FootballGameEngine_Indie_.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.StateMachines.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.Tactics;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.InGame.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Storage.MatchDifficulties;
+using Assets.UFABESoccerLeague_.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.StateMachines.Managers;
+using Assets.UFABESoccerLeague_.Scripts.Tactics;
 using RobustFSM.Base;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.Init.SubStates
+namespace Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.Init.SubStates
 {
     public class InitializeSceneWithData : BState
     {

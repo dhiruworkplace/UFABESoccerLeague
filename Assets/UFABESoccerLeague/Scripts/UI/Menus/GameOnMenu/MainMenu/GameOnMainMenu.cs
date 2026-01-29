@@ -1,14 +1,14 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.HalfTimeMenu.MainMenu;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.MainMenu;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.SubMenus;
+﻿using Assets.UFABESoccerLeague_.Scripts.UI.Menus.GameOnMenu.SubMenus;
+using Assets.UFABESoccerLeague_.Scripts.UI.Menus.GameOnMenu.SubMenus.HalfTimeMenu.MainMenu;
+using Assets.UFABESoccerLeague_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.MainMenu;
+using Assets.UFABESoccerLeague_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.SubMenus;
 using SmartMenuManagement.Scripts;
 using System;
 using UnityEngine;
 //
-using Assets.FootballGameEngine_Indie_.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.Managers;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.MainMenu
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Menus.GameOnMenu.MainMenu
 {
     [Serializable]
     public class GameOnMainMenu : BMenu

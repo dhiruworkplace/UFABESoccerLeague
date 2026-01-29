@@ -1,15 +1,15 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
-using Assets.FootballGameEngine_Indie_.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.MainState;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.MatchInPlayState.MainState;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.HomeState.MainState;
+﻿using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
+using Assets.UFABESoccerLeague_.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.GameOnState.MainState;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.MatchInPlayState.MainState;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.HomeState.MainState;
 using RobustFSM.Base;
 using RobustFSM.Interfaces;
 using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.MatchPaused.SubStates
+namespace Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.MatchPaused.SubStates
 {
     public class MatchPausedInfoState : BState
     {

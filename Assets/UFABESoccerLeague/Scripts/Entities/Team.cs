@@ -1,17 +1,17 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.PickOutThreat.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.Tackled.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.InGame.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Entities;
+﻿using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.PickOutThreat.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.Tackled.MainState;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
+using Assets.UFABESoccerLeague.Scripts.Utilities.Enums;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.InGame.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Entities;
 using RobustFSM.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Entities
+namespace Assets.UFABESoccerLeague.Scripts.Entities
 {
     [RequireComponent(typeof(TeamFSM))]
     public class Team : MonoBehaviour

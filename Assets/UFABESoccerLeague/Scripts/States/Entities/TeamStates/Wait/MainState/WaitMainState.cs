@@ -1,15 +1,15 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.KickOff.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CornerKick.MainState;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.GoalKick.MainState;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.ThrowIn.MainState;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.KickOff.MainState;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
+using Assets.UFABESoccerLeague.Scripts.Utilities.Enums;
+using Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.CornerKick.MainState;
+using Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.GoalKick.MainState;
+using Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.ThrowIn.MainState;
 using RobustFSM.Base;
 using System.Linq;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Wait.MainState
+namespace Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.Wait.MainState
 {
     public class WaitMainState : BState
     {

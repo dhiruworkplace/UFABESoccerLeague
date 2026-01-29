@@ -1,14 +1,14 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.Wait.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Attack.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Defend.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Init.MainState;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.Wait.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.Attack.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.Defend.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.Init.MainState;
 using System;
 using System.Collections;
 using System.Linq;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Tests.TeamTests
+namespace Assets.UFABESoccerLeague_.Scripts.Tests.TeamTests
 {
     public class AttackDefendFormationTest : MonoBehaviour
     {

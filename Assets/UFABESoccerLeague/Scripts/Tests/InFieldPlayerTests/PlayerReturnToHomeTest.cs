@@ -1,8 +1,8 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.GoToHome.MainState;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.GoToHome.MainState;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests
+namespace Assets.UFABESoccerLeague.Scripts.Tests.InFieldPlayerTests
 {
     public class PlayerReturnToHomeTest : MonoBehaviour
     {

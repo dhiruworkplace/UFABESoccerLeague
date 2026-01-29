@@ -1,10 +1,10 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Entities;
+﻿using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Entities;
 using System;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Widgets.TeamWidgets
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Widgets.TeamWidgets
 {
     [Serializable]
     public class TacticsManagementWidget

@@ -1,9 +1,9 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.Init.SubStates;
+﻿using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Managers;
+using Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.Init.SubStates;
 using RobustFSM.Base;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.Init.MainState
+namespace Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.Init.MainState
 {
     public class InitMainState : BHState
     {

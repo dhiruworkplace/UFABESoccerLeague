@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using static UnityEngine.UI.GridLayoutGroup;
-using Assets.FootballGameEngine_Indie.Scripts.Managers;
+using Assets.UFABESoccerLeague.Scripts.Managers;
 
 public class MyGameManager : MonoBehaviour
 {

@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Items.PlayerItems
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Items.PlayerItems
 {
     public class PlayerItem001 : MonoBehaviour
     {

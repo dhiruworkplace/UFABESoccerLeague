@@ -1,9 +1,9 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.SubStates;
+﻿using Assets.UFABESoccerLeague_.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.SubStates;
 using RobustFSM.Base;
 using System.Diagnostics;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.MainState
+namespace Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.MainState
 {
     public class PrepareForMatchMainState : BHState
     {

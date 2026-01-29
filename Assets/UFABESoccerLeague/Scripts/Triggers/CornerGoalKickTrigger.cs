@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Triggers
+namespace Assets.UFABESoccerLeague_.Scripts.Triggers
 {
     public class CornerGoalKickTrigger : BTrigger
     {

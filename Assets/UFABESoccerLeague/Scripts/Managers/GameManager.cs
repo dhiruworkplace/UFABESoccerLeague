@@ -1,17 +1,17 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Settings;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Storage.MatchDifficulties;
-using Assets.FootballGameEngine_Indie_.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.StateMachines.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.Tactics;
-using Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Settings;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Storage.MatchDifficulties;
+using Assets.UFABESoccerLeague_.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.StateMachines.Managers;
+using Assets.UFABESoccerLeague_.Scripts.Tactics;
+using Assets.UFABESoccerLeague_.Scripts.Utilities.Enums;
 using Patterns.Singleton;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Managers
+namespace Assets.UFABESoccerLeague.Scripts.Managers
 {
     /// <summary>
     /// Manages the entire game

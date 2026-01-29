@@ -1,10 +1,10 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Managers;
+﻿using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Managers;
 using RobustFSM.Base;
-using Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.Init.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.Init.MainState;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.MatchManagerMainState.WaitState.MainState
+namespace Assets.UFABESoccerLeague_.Scripts.States.Managers.MatchManagerMainState.WaitState.MainState
 {
     public class WaitMainState : BState
     {

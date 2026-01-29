@@ -1,18 +1,18 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.Background.MainMenu;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.ExitMenu.MainMenu;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.MainMenu;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.HomeMenu.MainMenu;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.Init.MainMenu;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.MainMenu;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.SettingsMenu.MainMenu;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.TrophyPanel.PanelMenu;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.UtilityMenu.MainMenu;
+﻿using Assets.UFABESoccerLeague_.Scripts.UI.Menus.Background.MainMenu;
+using Assets.UFABESoccerLeague_.Scripts.UI.Menus.ExitMenu.MainMenu;
+using Assets.UFABESoccerLeague_.Scripts.UI.Menus.GameOnMenu.MainMenu;
+using Assets.UFABESoccerLeague_.Scripts.UI.Menus.HomeMenu.MainMenu;
+using Assets.UFABESoccerLeague_.Scripts.UI.Menus.Init.MainMenu;
+using Assets.UFABESoccerLeague_.Scripts.UI.Menus.PrepareForMatchMenu.MainMenu;
+using Assets.UFABESoccerLeague_.Scripts.UI.Menus.SettingsMenu.MainMenu;
+using Assets.UFABESoccerLeague_.Scripts.UI.Menus.TrophyPanel.PanelMenu;
+using Assets.UFABESoccerLeague_.Scripts.UI.Menus.UtilityMenu.MainMenu;
 using Patterns.Singleton;
 using SmartMenuManagement.Scripts;
 using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Managers
+namespace Assets.UFABESoccerLeague_.Scripts.Managers
 {
    [RequireComponent(typeof(MenuManager))]
     public class GraphicsManager : Singleton<GraphicsManager>

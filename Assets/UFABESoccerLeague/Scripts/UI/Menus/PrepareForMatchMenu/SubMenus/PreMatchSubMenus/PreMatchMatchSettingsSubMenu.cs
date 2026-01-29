@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.PreMatchSubMenus
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.PreMatchSubMenus
 {
     [Serializable]
     public class PreMatchMatchSettingsSubMenu : BSubMenu

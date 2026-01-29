@@ -1,7 +1,7 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.ThrowIn.SubStates;
+﻿using Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.ThrowIn.SubStates;
 using RobustFSM.Base;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.ThrowIn.MainState
+namespace Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.ThrowIn.MainState
 {
     /// <summary>
     /// Handles team logic during a throw-in

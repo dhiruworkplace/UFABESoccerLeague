@@ -1,7 +1,7 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests
+namespace Assets.UFABESoccerLeague.Scripts.Tests.InFieldPlayerTests
 {
     public class PlayerShootBallTester : MonoBehaviour
     {
@@ -73,7 +73,7 @@ namespace Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests
             //    5f,
             //    null,
             //    null,
-            //    new FootballGameEngine_Indie_.Scripts.Data.Dtos.InGame.Entities.InGamePlayerDto()
+            //    new UFABESoccerLeague_.Scripts.Data.Dtos.InGame.Entities.InGamePlayerDto()
             //    {
             //        Accuracy = 0.5f,
             //        GoalKeeping = 0.5f,

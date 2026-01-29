@@ -1,15 +1,15 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.GoalKeeperStates.GoToHome.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Defend.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.GoalKeeperStates.GoToHome.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.Defend.MainState;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
+using Assets.UFABESoccerLeague.Scripts.Utilities.Enums;
 using RobustFSM.Base;
 using System;
 using System.Linq;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CornerKick.SubStates
+namespace Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.CornerKick.SubStates
 {
     public class DefendCornerKick : BState
     {
@@ -121,7 +121,7 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CornerKi
             });
         }
 
-        public FootballGameEngine_Indie.Scripts.Entities.Team Owner
+        public UFABESoccerLeague.Scripts.Entities.Team Owner
         {
             get
             {

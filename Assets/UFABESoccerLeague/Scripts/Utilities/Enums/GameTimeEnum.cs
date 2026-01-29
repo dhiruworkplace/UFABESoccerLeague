@@ -1,5 +1,5 @@
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums
+namespace Assets.UFABESoccerLeague.Scripts.Utilities.Enums
 {
     public enum GameTimeEnum
     {

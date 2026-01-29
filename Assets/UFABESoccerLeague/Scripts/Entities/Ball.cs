@@ -1,9 +1,9 @@
 ﻿using System;
-using Assets.FootballGameEngine_Indie_.Scripts.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Entities;
 using Patterns.Singleton;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Entities
+namespace Assets.UFABESoccerLeague.Scripts.Entities
 {
     public class Ball : Singleton<Ball>
     {

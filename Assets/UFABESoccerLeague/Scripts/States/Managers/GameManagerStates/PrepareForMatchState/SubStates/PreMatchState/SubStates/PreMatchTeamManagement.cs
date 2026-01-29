@@ -1,15 +1,15 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.StateMachines.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Items.PlayerItems;
-using Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.StateMachines.Managers;
+using Assets.UFABESoccerLeague_.Scripts.UI.Items.PlayerItems;
+using Assets.UFABESoccerLeague_.Scripts.Utilities.Enums;
 using RobustFSM.Base;
 using System;
 using System.Linq;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.SubStates.PreMatchState.SubStates
+namespace Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.SubStates.PreMatchState.SubStates
 {
     public class PreMatchTeamManagement : BState
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Settings
+namespace Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Settings
 {
     [Serializable]
     public class SoundSettingsDto

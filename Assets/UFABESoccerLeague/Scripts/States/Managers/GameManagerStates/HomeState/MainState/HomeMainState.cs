@@ -1,15 +1,15 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.StateMachines.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.ExitState.MainState;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.MainState;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.SettingsState.MainState;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.TrophyState.MainState;
-using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.TrophyPanel.PanelMenu;
+﻿using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.StateMachines.Managers;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.ExitState.MainState;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.MainState;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.SettingsState.MainState;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.TrophyState.MainState;
+using Assets.UFABESoccerLeague_.Scripts.UI.Menus.TrophyPanel.PanelMenu;
 using RobustFSM.Base;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.HomeState.MainState
+namespace Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.HomeState.MainState
 {
     public class HomeMainState : BState
     {

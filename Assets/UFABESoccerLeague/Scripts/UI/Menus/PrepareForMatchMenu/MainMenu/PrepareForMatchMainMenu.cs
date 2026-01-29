@@ -1,9 +1,9 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus;
+﻿using Assets.UFABESoccerLeague_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus;
 using SmartMenuManagement.Scripts;
 using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.MainMenu
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Menus.PrepareForMatchMenu.MainMenu
 {
     [Serializable]
     public class PrepareForMatchMainMenu : BMenu

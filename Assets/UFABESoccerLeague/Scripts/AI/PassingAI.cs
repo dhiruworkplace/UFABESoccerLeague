@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.AI
+namespace Assets.UFABESoccerLeague_.Scripts.AI
 {
     public class PassingAI
     {

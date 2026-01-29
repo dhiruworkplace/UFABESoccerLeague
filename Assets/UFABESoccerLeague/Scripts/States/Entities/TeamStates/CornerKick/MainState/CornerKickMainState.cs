@@ -1,7 +1,7 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CornerKick.SubStates;
+﻿using Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.CornerKick.SubStates;
 using RobustFSM.Base;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CornerKick.MainState
+namespace Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.CornerKick.MainState
 {
     public class CornerKickMainState : BHState
     {

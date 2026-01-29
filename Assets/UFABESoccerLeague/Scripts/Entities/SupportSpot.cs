@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Entities
+namespace Assets.UFABESoccerLeague.Scripts.Entities
 {
     public class SupportSpot : MonoBehaviour
     {

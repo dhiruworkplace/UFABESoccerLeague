@@ -1,7 +1,7 @@
 ﻿using Patterns.Singleton;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Controllers
+namespace Assets.UFABESoccerLeague.Scripts.Controllers
 {
     public class CameraController : Singleton<CameraController>
     {

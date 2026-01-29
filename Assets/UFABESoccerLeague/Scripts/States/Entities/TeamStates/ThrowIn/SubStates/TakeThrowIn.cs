@@ -1,16 +1,16 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.GoToHome.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ReceiveBall.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Attack.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.GoToHome.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ReceiveBall.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.Attack.MainState;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
+using Assets.UFABESoccerLeague.Scripts.Utilities.Enums;
 using RobustFSM.Base;
 using System;
 using System.Linq;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.ThrowIn.SubStates
+namespace Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.ThrowIn.SubStates
 {
     /// <summary>
     /// Handles team behaviour if when it's the one taking the throw-in
@@ -94,7 +94,7 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.ThrowIn.
             ActionUtility.Invoke_Action(Owner.OnTakeThrowIn);
         }
 
-        public FootballGameEngine_Indie.Scripts.Entities.Team Owner
+        public UFABESoccerLeague.Scripts.Entities.Team Owner
         {
             get
             {

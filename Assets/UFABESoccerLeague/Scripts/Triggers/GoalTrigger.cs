@@ -1,7 +1,7 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Triggers;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Triggers;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Triggers
+namespace Assets.UFABESoccerLeague.Scripts.Triggers
 {
     public class GoalTrigger : BTrigger
     {

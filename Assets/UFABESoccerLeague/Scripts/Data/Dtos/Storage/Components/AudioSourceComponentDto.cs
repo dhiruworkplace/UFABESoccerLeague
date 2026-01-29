@@ -1,8 +1,8 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague_.Scripts.Utilities.Enums;
 using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Components
+namespace Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Components
 {
     [Serializable]
     public class AudioSourceComponentDto

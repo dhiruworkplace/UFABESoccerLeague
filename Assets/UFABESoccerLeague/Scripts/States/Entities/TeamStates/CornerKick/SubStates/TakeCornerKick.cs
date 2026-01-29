@@ -1,14 +1,14 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Controllers;
-using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Attack.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Defend.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
+﻿using Assets.UFABESoccerLeague.Scripts.Controllers;
+using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.Attack.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.Defend.MainState;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
 using RobustFSM.Base;
 using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CornerKick.SubStates
+namespace Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.CornerKick.SubStates
 {
     public class TakeCornerKick : BState
     {
@@ -91,7 +91,7 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CornerKi
             waitTime = ballTime + UnityEngine.Random.value * 0.05f;
         }
 
-        public FootballGameEngine_Indie.Scripts.Entities.Team Owner
+        public UFABESoccerLeague.Scripts.Entities.Team Owner
         {
             get
             {

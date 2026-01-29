@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.SettingsMenu.MainMenu
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Menus.SettingsMenu.MainMenu
 {
     [Serializable]
     public class SettingsMainMenu : BMenu

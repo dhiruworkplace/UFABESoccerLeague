@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Utilities.Misc
+namespace Assets.UFABESoccerLeague_.Scripts.Utilities.Misc
 {
     public class BillBoard : MonoBehaviour
     {

@@ -1,9 +1,9 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Utilities.Objects;
-using Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague.Scripts.Utilities.Objects;
+using Assets.UFABESoccerLeague_.Scripts.Utilities.Enums;
 using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Tactics
+namespace Assets.UFABESoccerLeague_.Scripts.Tactics
 {
     [Serializable]
     public class AttackTactic : Tactic
@@ -46,14 +46,14 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.Tactics
         /// A reference to the short pass range
         /// </summary>
         [SerializeField]
-       FootballGameEngine_Indie.Scripts.Utilities.Objects.Range _shortPassRange = new FootballGameEngine_Indie.Scripts.Utilities.Objects.Range(5f, 9f);
+       UFABESoccerLeague.Scripts.Utilities.Objects.Range _shortPassRange = new UFABESoccerLeague.Scripts.Utilities.Objects.Range(5f, 9f);
         //Range _shortPassRange = new Range(5f, 9f);
 
         [SerializeField]
         AttackTypeEnum _attackType;
 
         public AttackTypeEnum AttackType { get => _attackType; set => _attackType = value; }
-        public FootballGameEngine_Indie.Scripts.Utilities.Objects.Range ShortPassRange { get => _shortPassRange; set => _shortPassRange = value; }
+        public UFABESoccerLeague.Scripts.Utilities.Objects.Range ShortPassRange { get => _shortPassRange; set => _shortPassRange = value; }
         public float LongBallProbability { get => _longBallProbability; set => _longBallProbability = value; }
         public float ForwardRunProbability { get => _forwardRunProbability; set => _forwardRunProbability = value; }
         public float PushAheadRatio { get => _pushAheadRatio; set => _pushAheadRatio = value; }

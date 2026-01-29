@@ -1,4 +1,4 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague_.Scripts.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Storage.MatchDifficulties
+namespace Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Storage.MatchDifficulties
 {
     [Serializable]
     public class MatchDifficulty

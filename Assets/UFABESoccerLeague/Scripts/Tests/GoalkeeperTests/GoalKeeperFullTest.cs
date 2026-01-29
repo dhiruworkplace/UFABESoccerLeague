@@ -1,8 +1,8 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Entities;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Entities;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Tests.GoalkeeperTests
+namespace Assets.UFABESoccerLeague_.Scripts.Tests.GoalkeeperTests
 {
     public class GoalKeeperFullTest : MonoBehaviour
     {

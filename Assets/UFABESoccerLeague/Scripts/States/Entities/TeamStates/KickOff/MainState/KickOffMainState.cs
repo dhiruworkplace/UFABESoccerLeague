@@ -1,7 +1,7 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.KickOff.SubStates;
+﻿using Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.KickOff.SubStates;
 using RobustFSM.Base;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.KickOff.MainState
+namespace Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.KickOff.MainState
 {
     public class KickOffMainState : BHState
     {

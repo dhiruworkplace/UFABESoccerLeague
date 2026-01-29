@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Utilities
+namespace Assets.UFABESoccerLeague.Scripts.Utilities
 {
     public class MathUtilities
     {

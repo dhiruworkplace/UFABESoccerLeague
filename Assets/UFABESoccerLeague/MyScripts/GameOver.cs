@@ -1,5 +1,5 @@
-using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.Managers;
+using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.Managers;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,7 +18,7 @@ public class GameOver : MonoBehaviour
         if (title.text.EndsWith("You Won"))
         {
             reward.text = "1000";
-            FarmsApp.coins += 1000;
+            SoccerbetApp.coins += 1000;
         }
         team1.text = MatchManager.Instance.AwayTeamData.ShortName;
         team2.text = MatchManager.Instance.HomeTeamData.ShortName;

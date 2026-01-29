@@ -1,13 +1,13 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.PickOutThreat.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.SupportAttacker.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.PickOutThreat.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.SupportAttacker.MainState;
+using Assets.UFABESoccerLeague.Scripts.Utilities.Enums;
 using RobustFSM.Base;
 using System.Linq;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.ThrowIn.SubStates
+namespace Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.ThrowIn.SubStates
 {
     /// <summary>
     /// Prepares the team for a throw-in depending on whether the team is
@@ -159,7 +159,7 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.ThrowIn.
             return Owner.Players[id];
         }
 
-        public FootballGameEngine_Indie.Scripts.Entities.Team Owner
+        public UFABESoccerLeague.Scripts.Entities.Team Owner
         {
             get
             {

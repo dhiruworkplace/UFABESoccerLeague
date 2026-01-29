@@ -1,10 +1,10 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.Managers;
+﻿using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.Managers;
 using RobustFSM.Base;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.Init.MainState;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Settings;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.Init.MainState;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Settings;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.Init.SubStates
+namespace Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.Init.SubStates
 {
     public class InitializeDataDependentEntities : BState
     {

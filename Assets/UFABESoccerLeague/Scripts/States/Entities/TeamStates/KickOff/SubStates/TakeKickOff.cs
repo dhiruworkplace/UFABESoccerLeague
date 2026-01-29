@@ -1,12 +1,12 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Attack.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.Attack.MainState;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
 using RobustFSM.Base;
 using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.KickOff.SubStates
+namespace Assets.UFABESoccerLeague.Scripts.States.Entities.TeamStates.KickOff.SubStates
 {
     public class TakeKickOff : BState
     {

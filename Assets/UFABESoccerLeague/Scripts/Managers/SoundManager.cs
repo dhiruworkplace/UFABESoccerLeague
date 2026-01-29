@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Components;
-using Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Components;
+using Assets.UFABESoccerLeague_.Scripts.Utilities.Enums;
 using Patterns.Singleton;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Managers
+namespace Assets.UFABESoccerLeague.Scripts.Managers
 {
     public class SoundManager : Singleton<SoundManager>
     {
@@ -99,7 +99,7 @@ namespace Assets.FootballGameEngine_Indie.Scripts.Managers
 
         public void PlayAudioClip(int id)
         {
-            if (FarmsApp.sound.Equals(0))
+            if (SoccerbetApp.sound.Equals(0))
                 return;
 
             // get audio clip

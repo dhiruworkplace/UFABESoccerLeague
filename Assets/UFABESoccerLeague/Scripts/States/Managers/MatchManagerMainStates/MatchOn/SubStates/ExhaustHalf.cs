@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Linq;
-using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchStopped.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.MatchManagerMainState.MatchPaused.MainState;
+using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Managers;
+using Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.MatchStopped.MainState;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
+using Assets.UFABESoccerLeague.Scripts.Utilities.Enums;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.MatchManagerMainState.MatchPaused.MainState;
 using RobustFSM.Base;
 using RobustFSM.Interfaces;
 using UnityEngine;
-using static Assets.FootballGameEngine_Indie.Scripts.Managers.MatchManager;
+using static Assets.UFABESoccerLeague.Scripts.Managers.MatchManager;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates
+namespace Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates
 {
     public class ExhaustHalf : BState
     {

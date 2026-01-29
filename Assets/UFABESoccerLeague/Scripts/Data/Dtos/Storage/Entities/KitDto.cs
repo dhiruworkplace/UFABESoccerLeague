@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Entities
+namespace Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Entities
 {
     [Serializable]
     public class KitDto

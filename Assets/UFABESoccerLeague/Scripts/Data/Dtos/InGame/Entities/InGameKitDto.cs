@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.InGame.Entities
+namespace Assets.UFABESoccerLeague_.Scripts.Data.Dtos.InGame.Entities
 {
     [Serializable]
     public class InGameKitDto

@@ -1,11 +1,11 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
+﻿using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Managers;
+using Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
 using RobustFSM.Base;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.MatchManagerMainState.MatchPaused.MainState
+namespace Assets.UFABESoccerLeague_.Scripts.States.Managers.MatchManagerMainState.MatchPaused.MainState
 {
     public class MatchPausedMainState : BState
     {

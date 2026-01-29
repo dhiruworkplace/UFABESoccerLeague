@@ -1,12 +1,12 @@
 ﻿using Assets.RobustFSM.Mono;
-using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.Init.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOver.MainState;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.MatchManagerMainState.WaitState.MainState;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.MatchManagerMainState.MatchPaused.MainState;
+using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.Init.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.MatchOn.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.MatchOver.MainState;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.MatchManagerMainState.WaitState.MainState;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.MatchManagerMainState.MatchPaused.MainState;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.StateMachines.Managers
+namespace Assets.UFABESoccerLeague.Scripts.StateMachines.Managers
 {
     public class MatchManagerFSM : MonoFSM<MatchManager>
     {

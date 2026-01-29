@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.SubMenus.MatchPaused.SubMenus
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.SubMenus.MatchPaused.SubMenus
 {
     [Serializable]
     public class MatchPausedInfoMenu : BSubMenu

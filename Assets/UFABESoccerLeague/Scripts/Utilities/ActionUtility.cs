@@ -1,8 +1,8 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.Entities;
+﻿using Assets.UFABESoccerLeague_.Scripts.Entities;
 using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Utilities
+namespace Assets.UFABESoccerLeague.Scripts.Utilities
 {
     public class ActionUtility
     {

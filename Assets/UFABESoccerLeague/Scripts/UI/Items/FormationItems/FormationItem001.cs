@@ -2,7 +2,7 @@
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Items.FormationItems
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Items.FormationItems
 {
     public class FormationItem001 : MonoBehaviour
     {

@@ -1,7 +1,7 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Settings;
-using Assets.FootballGameEngine_Indie_.Scripts.Managers;
-using Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.Init.SubStates;
+﻿using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Settings;
+using Assets.UFABESoccerLeague_.Scripts.Managers;
+using Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.Init.SubStates;
 using RobustFSM.Base;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.Init.MainState
+namespace Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.Init.MainState
 {
     public class InitMainState : BHState
     {

@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.ExitMenu.MainMenu
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Menus.ExitMenu.MainMenu
 {
     [Serializable]
     public class ExitMainMenu : BMenu

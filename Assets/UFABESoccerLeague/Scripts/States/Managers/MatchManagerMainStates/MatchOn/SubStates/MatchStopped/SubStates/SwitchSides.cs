@@ -1,11 +1,11 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Managers;
+using Assets.UFABESoccerLeague.Scripts.Utilities.Enums;
 using RobustFSM.Base;
 using RobustFSM.Interfaces;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates
+namespace Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates
 {
     public class SwitchSides : BState
     {

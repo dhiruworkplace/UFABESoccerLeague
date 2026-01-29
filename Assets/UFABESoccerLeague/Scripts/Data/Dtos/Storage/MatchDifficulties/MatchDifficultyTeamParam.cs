@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Storage.MatchDifficulties
+namespace Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Storage.MatchDifficulties
 {
     [Serializable]
     public class MatchDifficultyTeamParam

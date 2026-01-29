@@ -1,6 +1,6 @@
 ﻿
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums
+namespace Assets.UFABESoccerLeague_.Scripts.Utilities.Enums
 {
     public enum KickTypes
     {

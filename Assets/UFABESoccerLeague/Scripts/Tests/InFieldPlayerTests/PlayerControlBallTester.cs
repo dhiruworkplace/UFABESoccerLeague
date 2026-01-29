@@ -1,11 +1,11 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ControlBall.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ControlBall.MainState;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests
+namespace Assets.UFABESoccerLeague.Scripts.Tests.InFieldPlayerTests
 {
     public class PlayerControlBallTester : MonoBehaviour
     {

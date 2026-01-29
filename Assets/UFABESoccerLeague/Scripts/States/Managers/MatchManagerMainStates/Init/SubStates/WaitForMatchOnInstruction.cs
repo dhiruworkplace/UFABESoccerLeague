@@ -1,12 +1,12 @@
 ﻿using System;
-using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
+using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Managers;
+using Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.MatchOn.MainState;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
 using RobustFSM.Base;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.Init.SubStates
+namespace Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.Init.SubStates
 {
     public class WaitForMatchOnInstruction : BState
     {

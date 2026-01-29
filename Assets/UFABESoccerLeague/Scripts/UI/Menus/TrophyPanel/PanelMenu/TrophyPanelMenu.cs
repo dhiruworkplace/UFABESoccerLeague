@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.TrophyPanel.PanelMenu
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Menus.TrophyPanel.PanelMenu
 {
     [Serializable]
     public class TrophyPanelMenu : BMenu

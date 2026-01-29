@@ -1,6 +1,6 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ChaseBall.MainState;
-using Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.Tackled.MainState;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ChaseBall.MainState;
+using Assets.UFABESoccerLeague.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.Tackled.MainState;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests
+namespace Assets.UFABESoccerLeague.Scripts.Tests.InFieldPlayerTests
 {
     public class PlayerChaseBallTester : MonoBehaviour
     {
@@ -38,13 +38,13 @@ namespace Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests
         void Init()
         {
             //init primary player
-            //_primaryPlayer.Init(15f, 5f, 15f, 1f, 10f, 5f, 1f, 15f, 8f, 30f, 2f, 0.1f, 0.1f, 3f, 3f, 3f, 1f, 25f, 1f, 5f, null, new FootballGameEngine_Indie_.Scripts.Data.Dtos.InGame.Entities.PlayerDto()
+            //_primaryPlayer.Init(15f, 5f, 15f, 1f, 10f, 5f, 1f, 15f, 8f, 30f, 2f, 0.1f, 0.1f, 3f, 3f, 3f, 1f, 25f, 1f, 5f, null, new UFABESoccerLeague_.Scripts.Data.Dtos.InGame.Entities.PlayerDto()
             //{
             //    Accuracy = 1f,
             //    Speed = 1f,
             //});
 
-            //_secondaryPlayer.Init(15f, 5f, 15f, 1f, 10f, 5f, 1f, 15f, 8f, 30f, 2f, 0.1f, 0.1f, 3f, 3f, 3f, 1f, 25f, 1f, 5f, null, new FootballGameEngine_Indie_.Scripts.Data.Dtos.InGame.Entities.PlayerDto()
+            //_secondaryPlayer.Init(15f, 5f, 15f, 1f, 10f, 5f, 1f, 15f, 8f, 30f, 2f, 0.1f, 0.1f, 3f, 3f, 3f, 1f, 25f, 1f, 5f, null, new UFABESoccerLeague_.Scripts.Data.Dtos.InGame.Entities.PlayerDto()
             //{
             //    Accuracy = 1f,
             //    Speed = 1f,

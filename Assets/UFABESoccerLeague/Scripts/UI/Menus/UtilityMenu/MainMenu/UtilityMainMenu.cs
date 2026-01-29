@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.UtilityMenu.MainMenu
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Menus.UtilityMenu.MainMenu
 {
     [Serializable]
     public class UtilityMainMenu : BMenu

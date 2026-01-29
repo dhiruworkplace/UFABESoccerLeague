@@ -1,4 +1,4 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.References
+namespace Assets.UFABESoccerLeague_.Scripts.References
 {
     public class BallReference : MonoBehaviour
     {

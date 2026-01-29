@@ -1,11 +1,11 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Utilities.Enums;
 using Patterns.Singleton;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Managers
+namespace Assets.UFABESoccerLeague_.Scripts.Managers
 {
     public class FormationManager : Singleton<FormationManager>
     {

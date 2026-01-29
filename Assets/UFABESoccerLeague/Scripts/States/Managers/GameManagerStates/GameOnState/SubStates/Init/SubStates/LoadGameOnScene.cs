@@ -1,9 +1,9 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.Managers;
+﻿using Assets.UFABESoccerLeague_.Scripts.Managers;
 using RobustFSM.Base;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.Init.SubStates
+namespace Assets.UFABESoccerLeague_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.Init.SubStates
 {
     public class LoadGameOnScene : BState
     {

@@ -1,9 +1,9 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.Init.SubMenus;
+﻿using Assets.UFABESoccerLeague_.Scripts.UI.Menus.Init.SubMenus;
 using SmartMenuManagement.Scripts;
 using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.Init.MainMenu
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Menus.Init.MainMenu
 {
     [Serializable]
     public class InitMainMenu : BMenu

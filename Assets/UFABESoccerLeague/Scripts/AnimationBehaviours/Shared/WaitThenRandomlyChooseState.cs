@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.AnimationBehaviours.Shared
+namespace Assets.UFABESoccerLeague_.Scripts.AnimationBehaviours.Shared
 {
     public class WaitThenRandomlyChooseState : StateMachineBehaviour
     {

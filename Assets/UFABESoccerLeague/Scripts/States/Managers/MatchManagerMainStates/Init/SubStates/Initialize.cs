@@ -1,10 +1,10 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Managers;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Managers;
 using RobustFSM.Base;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.Init.SubStates
+namespace Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.Init.SubStates
 {
     public class Initialize : BState
     {
@@ -59,7 +59,7 @@ namespace Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMa
             Owner.TeamHome.OnInit -= Instance_OnTeamInit;
         }
 
-        void InitializeTeam(Team team, FootballGameEngine_Indie_.Scripts.Data.Dtos.InGame.Entities.InGameTeamDto teamData)
+        void InitializeTeam(Team team, UFABESoccerLeague_.Scripts.Data.Dtos.InGame.Entities.InGameTeamDto teamData)
         {
             if(team.IsUserControlled == true)
             {

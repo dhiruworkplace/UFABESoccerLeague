@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.UI.Widgets.InfoWidgets.PlayerInfoWidget
+namespace Assets.UFABESoccerLeague_.Scripts.UI.Widgets.InfoWidgets.PlayerInfoWidget
 {
     [Serializable]
     public class PlayerNameInfoWidget : MonoBehaviour

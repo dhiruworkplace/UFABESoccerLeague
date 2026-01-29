@@ -1,12 +1,12 @@
 ﻿using System;
-using Assets.FootballGameEngine_Indie.Scripts.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
+using Assets.UFABESoccerLeague.Scripts.Managers;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Managers;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
 using RobustFSM.Base;
 using UnityEngine;
-using static Assets.FootballGameEngine_Indie.Scripts.Managers.MatchManager;
+using static Assets.UFABESoccerLeague.Scripts.Managers.MatchManager;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates.MatchStopped.SubStates
+namespace Assets.UFABESoccerLeague.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates.MatchStopped.SubStates
 {
     public class HalfTime : BState
     {

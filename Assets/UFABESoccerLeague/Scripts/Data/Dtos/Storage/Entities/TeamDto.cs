@@ -1,9 +1,9 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague_.Scripts.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Entities
+namespace Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Entities
 {
     [Serializable]
     public class TeamDto

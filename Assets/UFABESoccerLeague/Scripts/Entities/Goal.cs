@@ -1,9 +1,9 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Triggers;
-using Assets.FootballGameEngine_Indie_.Scripts.Entities;
+﻿using Assets.UFABESoccerLeague.Scripts.Triggers;
+using Assets.UFABESoccerLeague_.Scripts.Entities;
 using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Entities
+namespace Assets.UFABESoccerLeague.Scripts.Entities
 {
     public class Goal : MonoBehaviour
     {

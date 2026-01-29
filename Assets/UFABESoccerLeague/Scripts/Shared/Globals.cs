@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Shared
+namespace Assets.UFABESoccerLeague_.Scripts.Shared
 {
     public static class Globals
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Tactics
+namespace Assets.UFABESoccerLeague_.Scripts.Tactics
 {
     [Serializable]
     public class Tactic

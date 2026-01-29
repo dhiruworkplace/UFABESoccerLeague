@@ -1,7 +1,7 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CounterKick.SubStates;
+﻿using Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.CounterKick.SubStates;
 using RobustFSM.Base;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CounterKick.MainState
+namespace Assets.UFABESoccerLeague_.Scripts.States.Entities.Team.CounterKick.MainState
 {
     public class CounterKickMainState : BHState
     {

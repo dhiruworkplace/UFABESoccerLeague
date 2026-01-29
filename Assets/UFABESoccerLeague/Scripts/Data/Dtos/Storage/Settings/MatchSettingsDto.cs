@@ -1,8 +1,8 @@
-﻿using Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums;
+﻿using Assets.UFABESoccerLeague_.Scripts.Utilities.Enums;
 using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Settings
+namespace Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Settings
 {
     [Serializable]
     public class MatchSettingsDto

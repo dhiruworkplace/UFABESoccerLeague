@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.InGame.Entities
+namespace Assets.UFABESoccerLeague_.Scripts.Data.Dtos.InGame.Entities
 {
     [Serializable]
     public class InGamePlayerDto

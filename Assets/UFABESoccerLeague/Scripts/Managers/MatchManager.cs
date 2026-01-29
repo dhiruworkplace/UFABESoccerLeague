@@ -1,17 +1,17 @@
-﻿using Assets.FootballGameEngine_Indie.Scripts.Entities;
-using Assets.FootballGameEngine_Indie.Scripts.StateMachines.Managers;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities;
-using Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.InGame.Entities;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Settings;
-using Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Storage.MatchDifficulties;
-using Assets.FootballGameEngine_Indie_.Scripts.Triggers;
+﻿using Assets.UFABESoccerLeague.Scripts.Entities;
+using Assets.UFABESoccerLeague.Scripts.StateMachines.Managers;
+using Assets.UFABESoccerLeague.Scripts.Utilities;
+using Assets.UFABESoccerLeague.Scripts.Utilities.Enums;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.InGame.Entities;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Settings;
+using Assets.UFABESoccerLeague_.Scripts.Data.Dtos.Storage.MatchDifficulties;
+using Assets.UFABESoccerLeague_.Scripts.Triggers;
 using Patterns.Singleton;
 using RobustFSM.Interfaces;
 using System;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Managers
+namespace Assets.UFABESoccerLeague.Scripts.Managers
 {
     [RequireComponent(typeof(MatchManagerFSM))]
     public class MatchManager : Singleton<MatchManager>

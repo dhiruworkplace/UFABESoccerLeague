@@ -1,7 +1,7 @@
 ﻿using Patterns.Singleton;
 using UnityEngine;
 
-namespace Assets.FootballGameEngine_Indie.Scripts.Entities
+namespace Assets.UFABESoccerLeague.Scripts.Entities
 {
     public class Pitch : Singleton<Pitch>
     {

@@ -11,13 +11,7 @@ public class SoundsFarms : MonoBehaviour
 
     private void Awake()
     {
-        if (instance)
-            Destroy(gameObject);
-        else
-        {
-            DontDestroyOnLoad(gameObject);
-            instance = this;
-        }
+        instance = this;
     }
 
     // Start is called before the first frame update

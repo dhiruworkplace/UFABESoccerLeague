@@ -40,7 +40,7 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerSt
             base.Execute();
 
             // message the match manager to start the match
-#if UNITY_EDITOR || UNITY_STANDALONE  || UNITY_WEBGL || UNITY_ANDROID
+#if UNITY_EDITOR || UNITY_STANDALONE  || UNITY_WEBGL //|| UNITY_ANDROID
             if (Input.GetKeyDown("space"))
             {
                 ActionUtility.Invoke_Action(_onMessageSwitchToMatchOn);
@@ -77,11 +77,11 @@ namespace Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerSt
                
                //AdsManager.Instance.RequestInterstitial();
                //AdsManager.Instance.RequestInterstitialStatic();
-                AdsManager.Instance.HideBanner();
-                 if (!AdsManager.Instance.isVideoReady)
-            {
-                //AdsManager.Instance.LoadInerstitialAd();
-            }
+            //    AdsManager.Instance.HideBanner();
+            //     if (!AdsManager.Instance.isVideoReady)
+            //{
+            //    //AdsManager.Instance.LoadInerstitialAd();
+            //}
                 MyGameManager.Instance.StratCutscenefrom1();
                 Debug.Log(" -------------------------- Press Any Key To Start Game Called Here");
                      // Players

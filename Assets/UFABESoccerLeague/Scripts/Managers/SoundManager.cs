@@ -99,6 +99,9 @@ namespace Assets.FootballGameEngine_Indie.Scripts.Managers
 
         public void PlayAudioClip(int id)
         {
+            if (FarmsApp.sound.Equals(0))
+                return;
+
             // get audio clip
             Tuple<bool, AudioSource> result = this.GetAudioSource(id);
 

@@ -21,13 +21,13 @@ public class FarmsSettings : MonoBehaviour
         {
             FarmsApp.music = 0;
             SoundManager.Instance.MusicVolume = 0;
-            //SoundsFarms.instance?.PauseMusic();
+            SoundsFarms.instance?.PauseMusic();
         }
         else
         {
             FarmsApp.music = 1;
             SoundManager.Instance.MusicVolume = 1;
-            //SoundsFarms.instance?.PlayMusic();
+            SoundsFarms.instance?.PlayMusic();
         }
         musicOn.SetActive(FarmsApp.music.Equals(1));
         SoundsFarms.instance?.PlaySound(0);
